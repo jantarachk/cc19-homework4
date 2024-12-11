@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Thai:wght@100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 8px;
+}
+
+body{
+    font-family: "Roboto", sans-serif;
+    
+}
+
+.main {
+    background-color: #f4f5f5 ;
+    height: 100vh;
+    display: flex;
+    flex: wrap;
+    justify-content: center;
+    padding-top: 30%;
+
+
+.box {
+    background-color: white;
+    height: 8.5vh; width: 50vh;
+    /* margin: .5vh .5vw; */
+    border-radius: 10px;
+    box-shadow: 5px 5px 5px 5px rgb(158, 158, 158);
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.top{
+    /* background-color: white; */
+    height: 50%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding-top: 0.5vh;
+    
+}
+
+.top >*{
+    /* flex:0 1; */
+}
+
+.profilelogo{
+    width: 10%;
+    display: flex;
+    justify-content: center;
+    /* background-color: deeppink; */
+}
+
+.youropinion{
+    width: 89%; height: 80%;
+    background-color: #00000030;
+    border-radius: 50px;
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    padding-left: 1.5vh;
+    padding-right: -5vh;
+}
+.centerline{
+    height: 3px;
+    color: grey;
+}
+
+
+.bottom{
+    /* background-color: lime; */
+    display: flex;
+    align-items: ;
+    height: 50%;
+    width: 100%;
+    justify-content: center;
+}
+
+.bottom>*{
+    flex-basis: 100%;
+    display: flex;
+    gap: 1vw;
+    align-items: center ;
+    padding-left: 2vh ;
+}
